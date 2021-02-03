@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-template-rows: repeat(2, 200px);
+    justify-content: center;
+}
+.image {
+    width: 100%;
+
+}
+#logo {
+    display: grid;
+    justify-content: space-between;
+    max-width: 450px;
+    width: 100%;
+margin: 0 auto;
+}
+body {
+    display: grid;
+    justify-content: center;
+
+}
+#navigation {
+    display: flex;
+    justify-content: center;
+}
+header {
+    display: grid;
+    justify-content: center;
+}
+.lamps {
+    border: solid 10px white;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+#start {
+    position: relative;
+    right: 70px;
+}
+.end {
+    position: relative;
+    left: 70px;
+}
